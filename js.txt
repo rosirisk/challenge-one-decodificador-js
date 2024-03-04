@@ -1,0 +1,29 @@
+<script type="text/javascript" src="js/script.js"></script>
+
+
+//const input_text = document.querySelector("#text-input");
+//const input_mensagem = document.querySelector("#div-mensagem");
+
+let matriz_code = [
+    ["e", "enter"],
+    ["i", "imes"],
+    ["a", "ai"],
+    ["o", "ober"],
+    ["u", "ufat"]
+];
+
+function btnCriptografar() {}
+
+    function Criptografar() {
+    const resultado = String;
+        String.replaceAll("e", "enter").replaceAll("i", "imes")
+        .replaceAll("a", "ai").replaceAll("o", "ober")
+        .replaceAll("u", "ufat");
+    
+return resultado;
+}
+
+
+//let test = "texto de teste";
+
+//console.log(criptografar(test)); 	
